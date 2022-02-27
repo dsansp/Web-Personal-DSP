@@ -1,0 +1,32 @@
+.content-wrapper> {
+    background-color: slategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    /* height: 600px; */
+    
+}
+.content-wrapper >.presentacion-text{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(222, 231, 241);
+    height: 750px;
+    text-align: center;
+    margin-top: 6px;
+}
+.content-wrapper> .presentacion-text p{
+    color: #14141d;
+    font-size: 1.8em;
+    text-align: center;
+    /* padding-top: 30px; */
+    /* padding-bottom: 4px; */
+
+}
+.content-wrapper> .presentacion-text h1{
+    color: #14141d;
+    font-size: 2.2em;
+    text-align: center
+    
+}
